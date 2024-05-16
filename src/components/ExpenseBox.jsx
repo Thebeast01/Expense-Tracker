@@ -59,7 +59,7 @@ const ExpenseBox = () => {
   return (
     <div className="h-full w-full overflow-hidden flex items-center bg-slate-900 justify-center">
       <ToastContainer/>
-      <div className="flex-col bg-slate-800 w-1/3  rounded-md flex p-5">
+      <div className="flex-col bg-slate-800  rounded-md flex p-5">
         <h1 className='flex  items-center justify-center text-3xl p-2 mb-2  text-slate-200 ' > Expense Tracker</h1>
         <form onSubmit={handleSubmit}>
           <Input
